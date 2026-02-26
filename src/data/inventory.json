@@ -5,8 +5,12 @@
     "type": "red",
     "region": "Bordeaux, France",
     "price": 85.00,
-    "tastingNotes": ["Blackberry", "Leather", "Earthy"],
-    "image": "/src/assets/images/bottle-red.png"
+    "tastingNotes": [
+      "Blackberry",
+      "Leather",
+      "Earthy"
+    ],
+    "image": "/images/bottle-red.png"
   },
   {
     "id": "w-002",
@@ -14,8 +18,12 @@
     "type": "white",
     "region": "Chablis, France",
     "price": 65.00,
-    "tastingNotes": ["Green Apple", "Flint", "Citrus"],
-    "image": "/src/assets/images/bottle-white.png"
+    "tastingNotes": [
+      "Green Apple",
+      "Flint",
+      "Citrus"
+    ],
+    "image": "/images/bottle-white.png"
   },
   {
     "id": "w-003",
@@ -23,8 +31,12 @@
     "type": "sparkling",
     "region": "Champagne, France",
     "price": 120.00,
-    "tastingNotes": ["Brioche", "Almond", "Pear"],
-    "image": "/src/assets/images/bottle-sparkling.png"
+    "tastingNotes": [
+      "Brioche",
+      "Almond",
+      "Pear"
+    ],
+    "image": "/images/bottle-sparkling.png"
   },
   {
     "id": "w-004",
@@ -32,8 +44,12 @@
     "type": "rose",
     "region": "Provence, France",
     "price": 45.00,
-    "tastingNotes": ["Strawberry", "Watermelon", "Rose Petal"],
-    "image": "/src/assets/images/bottle-rose.png"
+    "tastingNotes": [
+      "Strawberry",
+      "Watermelon",
+      "Rose Petal"
+    ],
+    "image": "/images/bottle-rose.png"
   },
   {
     "id": "w-005",
@@ -41,8 +57,12 @@
     "type": "red",
     "region": "Napa Valley, USA",
     "price": 110.00,
-    "tastingNotes": ["Plum", "Vanilla", "Oak"],
-    "image": "/src/assets/images/bottle-red.png"
+    "tastingNotes": [
+      "Plum",
+      "Vanilla",
+      "Oak"
+    ],
+    "image": "/images/bottle-red.png"
   },
   {
     "id": "w-006",
@@ -50,7 +70,11 @@
     "type": "white",
     "region": "Marlborough, New Zealand",
     "price": 38.00,
-    "tastingNotes": ["Passionfruit", "Grapefruit", "Grass"],
-    "image": "/src/assets/images/bottle-white.png"
+    "tastingNotes": [
+      "Passionfruit",
+      "Grapefruit",
+      "Grass"
+    ],
+    "image": "/images/bottle-white.png"
   }
 ]
