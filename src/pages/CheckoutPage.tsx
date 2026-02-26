@@ -26,7 +26,8 @@ export function CheckoutPage() {
     useEffect(() => {
         if (step === 3 && !clientSecret && items.length > 0) {
             const amountInPence = Math.round(orderTotal * 100);
-            fetch('http://localhost:3001/api/create-payment-intent', {
+            const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+            fetch(`${apiUrl}/api/create-payment-intent`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ amount: amountInPence }),
