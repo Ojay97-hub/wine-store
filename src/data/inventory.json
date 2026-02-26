@@ -1,0 +1,56 @@
+[
+  {
+    "id": "w-001",
+    "name": "Domaine de la Nuit",
+    "type": "red",
+    "region": "Bordeaux, France",
+    "price": 85.00,
+    "tastingNotes": ["Blackberry", "Leather", "Earthy"],
+    "image": "/src/assets/images/bottle-red.png"
+  },
+  {
+    "id": "w-002",
+    "name": "Lumina",
+    "type": "white",
+    "region": "Chablis, France",
+    "price": 65.00,
+    "tastingNotes": ["Green Apple", "Flint", "Citrus"],
+    "image": "/src/assets/images/bottle-white.png"
+  },
+  {
+    "id": "w-003",
+    "name": "Étoile",
+    "type": "sparkling",
+    "region": "Champagne, France",
+    "price": 120.00,
+    "tastingNotes": ["Brioche", "Almond", "Pear"],
+    "image": "/src/assets/images/bottle-sparkling.png"
+  },
+  {
+    "id": "w-004",
+    "name": "Soleil",
+    "type": "rose",
+    "region": "Provence, France",
+    "price": 45.00,
+    "tastingNotes": ["Strawberry", "Watermelon", "Rose Petal"],
+    "image": "/src/assets/images/bottle-rose.png"
+  },
+  {
+    "id": "w-005",
+    "name": "Terroir Napa",
+    "type": "red",
+    "region": "Napa Valley, USA",
+    "price": 110.00,
+    "tastingNotes": ["Plum", "Vanilla", "Oak"],
+    "image": "/src/assets/images/bottle-red.png"
+  },
+  {
+    "id": "w-006",
+    "name": "Altair",
+    "type": "white",
+    "region": "Marlborough, New Zealand",
+    "price": 38.00,
+    "tastingNotes": ["Passionfruit", "Grapefruit", "Grass"],
+    "image": "/src/assets/images/bottle-white.png"
+  }
+]

@@ -1,0 +1,22 @@
+# Ignore everything in the root repository folder
+/*
+
+# Un-ignore the profile README and gitignore
+!/README.md
+!/.gitignore
+
+# Un-ignore the OneDrive folder itself
+!/OneDrive/
+
+# Inside OneDrive, ignore everything
+/OneDrive/*
+
+# Except Desktop
+!/OneDrive/Desktop/
+
+# Inside Desktop, ignore everything
+/OneDrive/Desktop/*
+
+# Except wine-store project
+!/OneDrive/Desktop/wine-store/
+!/OneDrive/Desktop/wine-store/**
