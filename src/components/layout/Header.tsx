@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ShoppingCart, Menu } from 'lucide-react';
+import { ShoppingCart, Menu, Mail } from 'lucide-react';
 import { H3 } from '../ui/Typography';
 
 import { useCartStore } from '../../store/cartStore';
@@ -39,18 +39,29 @@ export function Header() {
                     <Link to="/club" className="text-sm tracking-widest uppercase text-charcoal hover:text-charcoal/70 transition-all">Club</Link>
                 </nav>
 
-                <button
-                    onClick={() => setIsCartOpen(true)}
-                    className="relative text-charcoal focus:outline-none flex items-center group"
-                >
-                    <span className="sr-only">Cart</span>
-                    <ShoppingCart className="w-6 h-6 transition-all group-hover:opacity-70" />
-                    {cartItemCount > 0 && (
-                        <span className="absolute -top-1 -right-1 bg-burgundy text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center">
-                            {cartItemCount}
-                        </span>
-                    )}
-                </button>
+                <div className="flex items-center space-x-6">
+                    <a
+                        href="mailto:contact@vino.com"
+                        className="text-charcoal hover:text-charcoal/70 transition-all flex items-center"
+                        title="Contact Us"
+                    >
+                        <span className="sr-only">Contact Us</span>
+                        <Mail className="w-5 h-5" />
+                    </a>
+
+                    <button
+                        onClick={() => setIsCartOpen(true)}
+                        className="relative text-charcoal focus:outline-none flex items-center group"
+                    >
+                        <span className="sr-only">Cart</span>
+                        <ShoppingCart className="w-6 h-6 transition-all group-hover:opacity-70" />
+                        {cartItemCount > 0 && (
+                            <span className="absolute -top-1 -right-1 bg-burgundy text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center">
+                                {cartItemCount}
+                            </span>
+                        )}
+                    </button>
+                </div>
             </div>
         </header>
     );
